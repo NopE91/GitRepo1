@@ -1,0 +1,16 @@
+﻿<Window x:Class="EncryptDecrypt_Pwd.MainWindow"        
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="zED Encryption" Height="260" Width="460"
+        WindowState="Normal" ResizeMode="CanMinimize">
+    <Grid x:Name="LayoutRoot" Height="232" Width="455" Background="Green">
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="161,46,0,0" Name="txtPwd" VerticalAlignment="Top" Width="256" FontSize="12" FontWeight="Bold" FontFamily="Arial" TextAlignment="Left" />
+        <Label Content="Password" Height="28" HorizontalAlignment="Left" Margin="86,46,0,0" Name="label1" VerticalAlignment="Top" Width="61" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="161,80,0,0" Name="txtEnPwd" VerticalAlignment="Top" Width="256" FontSize="12" FontWeight="Bold" FontFamily="Arial" TextAlignment="Left" />
+        <Label Content="Encrypted Password" Height="28" HorizontalAlignment="Left" Margin="32,78,0,0" Name="label2" VerticalAlignment="Top" Width="123" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="161,111,0,0" Name="txtDePwd" VerticalAlignment="Top" Width="256" FontSize="12" FontWeight="Bold" FontFamily="Arial" TextAlignment="Left" />
+        <Label Content="Decrypted Password" Height="28" HorizontalAlignment="Left" Margin="32,109,0,0" Name="label3" VerticalAlignment="Top" Width="123" />
+        <Button Content="Encrypt" Height="42" Margin="161,161,192,0" Name="btnEncypt" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="button1_Click" />
+        <Button Content="Decrypt" Height="42" Margin="279,161,69,0" Name="btnDecrypt" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="button2_Click" />
+    </Grid>
+</Window>
